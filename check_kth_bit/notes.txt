@@ -1,0 +1,3 @@
+1. run a loop the with k>=0 condition.
+2. in loop keep track of n%2, and divide the number with 2, and decrese the k.
+3. at last check if sol equal to 1 and return true if so, else return 0.
