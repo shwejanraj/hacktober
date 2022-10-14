@@ -1,0 +1,13 @@
+there are 2 approaches to this problem.
+
+-------------time - O(n) and O(n) space-------------
+1. first we create a aux array that store the max elemet of that is available in prices array from that index.
+2. them we simply iterate over prices array and sub the element at ith index of aux array and prices array. and we store the max of them .
+3. we return the max after iteration.
+
+-----------------time - O(n) and space- O(1)--------------
+1. make 2 variable minsofar and maxprofit.
+2. iterate over prices array and update the minsofar as minimun of minsofar and ith element of the price array.
+3. then calulate the profit as the difference between ith element of prices array and minsofar.
+4. update maxprofit if profit is greater than maxprofit.
+5. return the maxprofit at the end of the iterations.
