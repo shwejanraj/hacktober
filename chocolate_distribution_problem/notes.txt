@@ -1,0 +1,9 @@
+we can solve this problem by sorting the given array or arraylist.
+
+1. sort the array using built-in function(collections.sort()).
+
+2. The idea it to calculate the difference between the smallest and largest value of subarray of length m.
+
+3. we run a loop with exit conditions i+m-1 < n. and calcualte and diff between element at i and i+m-1.
+
+4. we find the smallest diff among all diff and return it.
